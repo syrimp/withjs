@@ -36,7 +36,7 @@ function changePic(){
 }
 changePic();
 setInterval(changePic, 1000*10);
-//------------------------------------------login
+//-------------------------------------------login
 
 const login = document.querySelector("#enter");
 const input = document.querySelector("#enter input");
