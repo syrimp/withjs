@@ -32,7 +32,7 @@ function changePic(){
             break;
         }
     }
-    wallpaper.style.backgroundImage ="url(../wallpaper/pictures"+`${cnt}`+".jpg)";
+    wallpaper.style.backgroundImage ="url(wallpaper/pictures"+`${cnt}`+".jpg)";
 }
 changePic();
 setInterval(changePic, 1000*10);
